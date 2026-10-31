@@ -2,12 +2,15 @@
   "expo": {
     "name": "VITA+",
     "slug": "vita-plus",
+    "icon": "./assets/icon.png",
     "scheme": "vitaplus",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "splash": {
-      "backgroundColor": "#F8F6F2"
+      "backgroundColor": "#F8F6F2",
+      "image": "./assets/android-icon-foreground.png",
+      "resizeMode": "contain"
     },
     "plugins": [
       "expo-router",
@@ -15,12 +18,16 @@
     ],
     "ios": {
       "supportsTablet": true,
+      "icon": "./assets/icon.png",
       "bundleIdentifier": "org.vitaplusdemo.academico20261031"
     },
     "android": {
       "package": "org.vitaplusdemo.academico20261031",
+      "icon": "./assets/android-icon.png",
       "adaptiveIcon": {
-        "backgroundColor": "#F8F6F2"
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
       }
     },
     "web": {
