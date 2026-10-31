@@ -1,0 +1,6 @@
+import React from 'react';
+import { Card, Note, Screen } from '../components/Screen';
+import { useProfileNavigation } from '../utils/useProfileNavigation';
+import { Text, View } from 'react-native';
+import CareIllustration from '../components/CareIllustration';
+export default function SelectProfile() { const { selectProfile } = useProfileNavigation(); return <Screen eyebrow="Cuidado, segurança e conexão" title="Bem-vindo ao VITA+" subtitle="Um espaço de cuidado para acompanhar quem importa." decoration={<CareIllustration />}><View className="bg-peach rounded-3xl p-5 mb-5"><Text className="text-ink text-lg font-bold">Como você deseja entrar?</Text><Text className="text-muted text-base leading-6 mt-1">Escolha um perfil para explorar a demonstração.</Text></View><Card title="Idoso" detail="Dona Maria · meu cuidado" icon="heart-outline" onPress={() => selectProfile('idoso')} /><Card title="Familiar" detail="Ana · acompanho minha mãe" icon="people-outline" tone="peach" onPress={() => selectProfile('familiar')} /><Card title="Profissional" detail="Enfermeira Camila · equipe de cuidado" icon="medkit-outline" onPress={() => selectProfile('profissional')} /><Note>Modo demonstração — dados fictícios. Os perfis compartilham dados apenas neste dispositivo.</Note></Screen>; }

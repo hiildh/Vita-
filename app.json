@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "VITA+",
+    "slug": "vita-plus",
+    "scheme": "vitaplus",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#F8F6F2"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.vitaplusdemo.academico20261031"
+    },
+    "android": {
+      "package": "org.vitaplusdemo.academico20261031",
+      "adaptiveIcon": {
+        "backgroundColor": "#F8F6F2"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "de5fe962-b812-49bb-912f-2dab1fa9127d"
+      }
+    },
+    "owner": "hhelenaluz"
+  }
+}

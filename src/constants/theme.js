@@ -1,0 +1,1 @@
+export const colors = { primary: '#2D705F', deep: '#24584B', mint: '#86B9A7', sage: '#E5F0E9', peach: '#F5E5DC', cream: '#F8F6F2', surface: '#FFFDFC', ink: '#2E342F', muted: '#596761', line: '#E7E4DF', warning: '#E9B971', emergency: '#B94F4F' };
